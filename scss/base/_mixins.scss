@@ -1,0 +1,11 @@
+
+
+@mixin texto ($estilo, $size, $peso) {
+    font-style: $estilo;
+    font-size: $size;
+    font-weight: $peso;
+};
+
+.talk {
+    @include texto(italic, 1em, bolder);
+}

@@ -1,0 +1,38 @@
+/* INICIO SECCIÓN CUATRO */
+
+.cabeza-publi {
+    font-family: map-get($divisor, font-family-divisor);
+    color: map-get($divisor, color-divisor);
+    text-shadow: map-get($divisor, text-shadow-divisor);
+    margin-bottom: map-get($divisor, margin-bottom-divisor);
+    letter-spacing: map-get($divisor, letter-spacing-divisor);
+    text-align: map-get($divisor, text-align-divisor);
+    font-weight: map-get($divisor, font-weight-divisor);
+}
+
+.titu-publi {
+    justify-content: map-get($textos, justify-content-textos);
+    text-align: map-get($divisor, text-align-divisor);
+    font-style: map-get($textos, font-style-textos);
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.card-group {
+    width: 80%;
+}
+
+.card-img-top {
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.card-body {
+    background-color: nth($color, 4);
+    width: 100%;
+    border: 0.5px solid black;
+    
+}
+
+/* FIN SECCIÓN CUATRO*/

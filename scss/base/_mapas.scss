@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+$divisor: (
+    font-family-divisor: $fuente1,
+    color-divisor: white,
+    text-shadow-divisor: .2rem .2rem .2rem rgb(15, 15, 15),
+    margin-bottom-divisor: 1rem,
+    letter-spacing-divisor: 0.2rem,
+    text-align-divisor: center,
+    font-weight-divisor: bold,
+);
+
+$textos: (
+    font-weight-textos: bolder,
+    font-style-textos: italic,
+    justify-content-textos: center,
+)
+
+

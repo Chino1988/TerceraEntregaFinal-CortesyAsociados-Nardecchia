@@ -1,0 +1,23 @@
+{
+  "name": "tercera-entrega-estudiojco-nardecchia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chino1988/TerceraEntregaFinal-CortesyAsociados-Nardecchia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chino1988/TerceraEntregaFinal-CortesyAsociados-Nardecchia/issues"
+  },
+  "homepage": "https://github.com/Chino1988/TerceraEntregaFinal-CortesyAsociados-Nardecchia#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

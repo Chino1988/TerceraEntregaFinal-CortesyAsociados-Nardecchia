@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+@import './base/variables';
+@import './base/listas';
+@import './base/mapas';
+@import './base/extends';
+@import './base/mixins';
+@import './components/sliders';
+@import './components/nosotros';
+@import './components/faq';
+@import './components/publicaciones';
+@import './components/sucursales';
+@import './components/contacto';
+
+/* INICIO HEADER */
+header {
+    background-color: nth($color, 1);
+    .title {
+        font-family: $fuente1;
+        color: #fff;
+        text-shadow: .2rem .2rem .2rem #333;
+        font-size: 4em;
+        .nav-item {
+            font: white;
+            .dropdown-divider {
+                background-color: nth($color, 1);
+                padding: 10px;
+            }
+        }
+    }
+}
+/* FIN HEADER */
+
+body {
+    background-color: #585d63;
+}

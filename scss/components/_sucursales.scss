@@ -1,0 +1,41 @@
+/* INICIO SECCIÓN CINCO */
+
+.oficina {
+    font-family: $fuente1;
+    color: nth($color, 3);
+    text-shadow: $sombra;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.mza, .caba {
+    text-decoration: underline;
+}
+
+.map {
+    margin-bottom: 25px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+.col {
+    margin-bottom: 25px;
+}
+
+#secundario {
+    font-family: $fuente1;
+    color: nth($color, 3);
+    text-shadow: $sombra;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: map-get($divisor, text-align-divisor);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.internacional {
+    width: 50%;
+    font-style: map-get($textos, font-style-textos);
+    font-family: $fuente2;
+}

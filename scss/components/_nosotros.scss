@@ -1,0 +1,40 @@
+
+/* INICIO SECCIÓN DOS */
+
+/* Mapa para encabezado y extends-placeholders para imágenes */
+.cabeza-nosotros {
+    font-family: map-get($divisor, font-family-divisor);
+    color: map-get($divisor, color-divisor);
+    text-shadow: map-get($divisor, text-shadow-divisor);
+    margin-bottom: map-get($divisor, margin-bottom-divisor);
+    letter-spacing: map-get($divisor, letter-spacing-divisor);
+    text-align: map-get($divisor, text-align-divisor);
+    font-weight: map-get($divisor, font-weight-divisor);
+}
+
+.titu-nos {
+    font-weight: map-get($textos, font-weight-textos);
+    font-style: map-get($textos, font-style-textos);
+    text-align: map-get($divisor, text-align-divisor);
+}
+.texto {
+    font-style: map-get($textos, font-style-textos);
+    text-align: map-get($divisor, text-align-divisor);
+}
+.img-cortes {
+    width: 300px;
+    @extend %img;
+    &:hover {
+        transform: translateY(-2%);
+    }
+}
+
+.img-barro, .img-rodri, .img-garay {
+    width: 300px;
+    @extend %img;
+    &:hover {
+        transform: translateY(-2%);
+    }
+}
+
+/* FIN SECCIÓN DOS */
